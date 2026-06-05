@@ -8,7 +8,7 @@ if int(str(tf.__version__)[0]) == 2:
     from tensorflow.keras.optimizers import Adam, Nadam, SGD
     import tensorflow.keras.backend as K
     from tensorflow.keras.applications import EfficientNetB4, EfficientNetB0
-    from tensorflow.keras.layers.experimental.preprocessing import Resizing
+    from tensorflow.keras.layers import Resizing
     from tensorflow.keras.regularizers import L2
 if int(str(tf.__version__)[0]) == 1:
     from keras.models import Model

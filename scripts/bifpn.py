@@ -13,7 +13,7 @@ from tensorflow.keras.layers import Conv2D, Conv2DTranspose, SeparableConv2D, De
 from tensorflow.keras.layers import MaxPooling2D, GlobalAveragePooling2D, AveragePooling2D
 from tensorflow.keras.backend import resize_images, int_shape
 from tensorflow.keras.layers import Dropout, SpatialDropout2D, Conv2DTranspose
-from tensorflow.keras.layers.experimental.preprocessing import Resizing
+from tensorflow.keras.layers import Resizing
 from tensorflow.keras.applications import EfficientNetB4
 from tensorflow.keras.regularizers import L2
 from tensorflow.keras.layers import Dropout, SpatialDropout2D
